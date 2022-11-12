@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Hello Extensions",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "default.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*"
+            ],
+            "js": [
+                "/script.js"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "./background.js"
+    },
+    "permissions": [
+        "nativeMessaging"
+    ]
+}
