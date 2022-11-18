@@ -9,4 +9,6 @@ A chrome extention to remove fake twitter verification
 Download the folder and allow developer options on extention settings and load extention from downloaded folder.
 Currently not planning to publish on Chrome store. So this is the only way
 
+**Update**: Now this extension is available as [Firefox addon](https://addons.mozilla.org/en-US/firefox/addon/twitter-og-verification/)
+ 
 **NOTE:** Twitter is currently making a lot of changes in their UI, so the some of the checkmarks might not be removed
